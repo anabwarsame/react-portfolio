@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavigationBar } from "./components/NavigationBar/NavigationBar";
+import { Header } from "./components/Header/Header";
+import { ProjectCards } from "./components/ProjectCards/ProjectCards";
+import { Cards } from "./components/Cards/Cards";
+import Container from "@mui/material/Container";
+import "./CSS/styles.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container component="main" maxWidth="xs">
+      <NavigationBar></NavigationBar>
+      <Header></Header>
+      <ProjectCards></ProjectCards>
+      <Cards></Cards>
+    </Container>
   );
-}
-
+};
 export default App;
