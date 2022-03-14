@@ -8,7 +8,7 @@ export const ProjectCards = () => {
           alt="foodtopia img"
         />
         <div className="card-body">
-          <h5 className="card-title">Project 1 - Foodtopia</h5>
+          <h5 className="card-text">Project 1 - Foodtopia</h5>
           <p className="card-text">
             This is a food recipe app which caters to all food intolerance's,
             whereby a user can filter to their dietary needs and render recipe
@@ -32,7 +32,7 @@ export const ProjectCards = () => {
           alt="foodtopia img"
         />
         <div className="card-body">
-          <h5 className="card-title">Project 2 - Food4U</h5>
+          <h5 className="card-text">Project 2 - Food4U</h5>
           <p className="card-text">
             An application where users can upload, edit, delete food posts using
             its own server-side API, user authentification, and which connects

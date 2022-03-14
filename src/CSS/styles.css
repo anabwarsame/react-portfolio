@@ -1,3 +1,7 @@
+.body {
+  background-color: rgb(134, 160, 134);
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -27,7 +31,7 @@
 
 .card-img-top {
   width: 287.8px;
-  height: 200px;
+  height: 280px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
