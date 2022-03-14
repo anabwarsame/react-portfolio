@@ -1,0 +1,131 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(241, 204, 223);
+  margin: 0px;
+  line-height: 35px;
+  background-color: rgb(241, 204, 223);
+}
+
+.name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: rgb(241, 204, 223);
+}
+.image-container {
+  width: 350px;
+  height: 400px;
+  margin: 4rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border: solid rgb(241, 204, 223) 10px;
+}
+
+.card-img-top {
+  width: 287.8px;
+  height: 200px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-container {
+  color: green;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-container {
+  border: solid green;
+  color: green;
+  background-color: rgb(241, 204, 223);
+  text-align: center;
+}
+
+.skills-list {
+  border: green;
+  color: green;
+  font-size: 5pxx;
+  font-weight: 100px;
+}
+
+.nav-links {
+  border: solid green;
+  background-color: rgb(241, 204, 223);
+  margin-bottom: 2rem;
+}
+.nav-links a:hover {
+  color: green;
+}
+
+.banner {
+  background-image: url("../images/placeholderimg.jpg");
+  height: 250px;
+  width: 100px;
+  background-size: cover;
+  position: relative;
+}
+
+.card-container {
+  border: solid rgb(241, 204, 223) 5px;
+  margin: 3rem;
+}
+
+.card-text {
+  color: green;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+.link {
+  text-decoration: none;
+  color: green;
+}
+
+.link:active,
+.link:visited,
+.link:focus {
+  color: green;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .placeholder-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-alignment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
