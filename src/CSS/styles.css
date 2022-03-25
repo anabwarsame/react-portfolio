@@ -86,7 +86,8 @@
 
 .card-container {
   border: solid rgb(241, 204, 223) 5px;
-  margin: 3rem;
+  margin: 10px 5px 20px;
+  /* margin: 3rem; */
 }
 
 .card-text {

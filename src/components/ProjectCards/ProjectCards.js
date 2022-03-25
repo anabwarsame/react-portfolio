@@ -19,7 +19,7 @@ const mainProj = [
 
 export const ProjectCards = () => {
   return (
-    <section className="container my-3 d-flex flex-wrap justify-content-center ">
+    <section className="d-flex flex-wrap justify-content-center align-items-center mt-5">
       {mainProj.map((project) => (
         <MainCard project={project} />
       ))}

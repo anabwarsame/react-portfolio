@@ -3,7 +3,7 @@ const MainCard = ({ project }) => {
   return (
     <>
       {" "}
-      <div className="card-container" style={{ width: "18rem" }}>
+      <div className="card-container col col-6" style={{ width: "20rem" }}>
         <img
           src={`${process.env.PUBLIC_URL}/${project?.imageUrl}`}
           className="card-img-top"

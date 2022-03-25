@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
-    <div class="pt-5 mt-5">
-      <form>
+    <div class="pt-5 container mt-5">
+      <form className="">
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">
             Email address

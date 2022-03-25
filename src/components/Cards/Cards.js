@@ -3,7 +3,10 @@ import * as React from "react";
 export const Cards = ({ project }) => {
   return (
     // <section className="container my-3 d-flex flex-wrap justify-content-center ">
-    <div className="card-container" style={{ width: "18rem" }}>
+    <div
+      className="card-container col-md-3 col col-3"
+      style={{ width: "18rem" }}
+    >
       <img
         src={`${process.env.PUBLIC_URL}/${project.imageUrl}`}
         className="card-img-top"
