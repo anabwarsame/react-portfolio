@@ -1,28 +1,29 @@
-import MainCard from "../Maincard";
+import { Cards } from "../Cards/Cards";
 
-const mainProj = [
+const otherProj = [
   {
-    name: "Food4U",
+    name: "Code Quiz",
     imageUrl: "images/Screenshot 2022-01-31 at 02.54.14.png",
     github: "https://github.com/anabwarsame/Food4u/",
     description:
       "An application where users can upload, edit, delete food posts using its own server-side API, user authentification, and which connects to a database.",
   },
   {
-    name: "Foodtopia",
+    name: "Day Planner",
     imageUrl: "images/Screenshot 2022-01-22 at 22.21.56.png",
-    github: "https://github.com/anabwarsame/Foodtopia",
+    github: "https://github.com/anabwarsame/Work-Day-Planner",
     description:
-      "This is a food recipe app which caters to all food intolerance's whereby a user can filter to their dietary needs and render recipe cards.",
+      "This is a project containing a work day calendar between the hours  of 9AM-5PM. Its an easy to use calendar where the user can add text at specific hours to plan their day and save it.",
   },
 ];
-
-export const ProjectCards = () => {
+const OtherCards = () => {
   return (
     <section className="container my-3 d-flex flex-wrap justify-content-center ">
-      {mainProj.map((project) => (
-        <MainCard project={project} />
+      {otherProj.map((project) => (
+        <Cards project={project} />
       ))}
     </section>
   );
 };
+
+export default OtherCards;

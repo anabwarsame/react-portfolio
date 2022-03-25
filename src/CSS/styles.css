@@ -77,7 +77,7 @@
 }
 
 .banner {
-  background-image: url("../images/placeholderimg.jpg");
+  /* background-image: url("../images/placeholderimg.jpg"); */
   height: 250px;
   width: 100px;
   background-size: cover;

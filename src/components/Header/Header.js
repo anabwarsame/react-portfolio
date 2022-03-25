@@ -2,12 +2,11 @@ export const Header = () => {
   return (
     <header
       className="py-5 bg-image-full d-flex flex-wrap justify-content-center"
-      // style={{ backgroundImage: "url(./assets/images/placeholderimg.jpg)" }}
       className="image-container"
-      style={{ width: "18rem" }}
+      style={{ width: "18rem", margin: "auto" }}
     >
       <img
-        src={require("../../images/portfolioprofile.JPG")}
+        src={`${process.env.PUBLIC_URL}/images/portfolioprofile.JPG`}
         className="card-img-top"
         alt="placeholder img"
       />

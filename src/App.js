@@ -4,15 +4,21 @@ import { ProjectCards } from "./components/ProjectCards/ProjectCards";
 import { Cards } from "./components/Cards/Cards";
 import Container from "@mui/material/Container";
 import "./CSS/styles.css";
+import { HashRouter } from "react-router-dom";
+import AppRouter from "./components/AppRouter/AppRouter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <Container component="main" maxWidth="xs">
-      <NavigationBar></NavigationBar>
-      <Header></Header>
-      <ProjectCards></ProjectCards>
-      <Cards></Cards>
-    </Container>
+    <HashRouter>
+      <Container component="main">
+        <NavigationBar />
+        <Header></Header>
+        <AppRouter />
+
+        <Footer />
+      </Container>
+    </HashRouter>
   );
 };
 export default App;
